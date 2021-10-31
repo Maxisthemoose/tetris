@@ -1,3 +1,3 @@
 import Main from "./Tetris/Main";
 
-(async () => await new Main().start())();
+(async () => await Main.start())();

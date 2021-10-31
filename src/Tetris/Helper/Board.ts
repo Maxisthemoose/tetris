@@ -1,3 +1,5 @@
+import Piece from "./Piece";
+
 export default class Board {
   private Board: string[][] = [];
   private blankBoard: string = "⚫";
@@ -20,7 +22,7 @@ export default class Board {
     return this.Board;
   }
 
-  public render(): string[][] {
+  public render(currentPiece: Piece): string[][] {
     return this.board;
   }
 }

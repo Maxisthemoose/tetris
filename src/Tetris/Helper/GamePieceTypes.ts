@@ -28,3 +28,13 @@ export default [
     emoji: "🟥",
   },
 ];
+
+export enum PiecesEnum {
+  I = "🟫",
+  J = "🟦",
+  L = "🟧",
+  O = "🟨",
+  S = "🟩",
+  T = "🟪",
+  Z = "🟥",
+}
